@@ -1,0 +1,23 @@
+.App {
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 50px;
+    margin-top: 100px;
+    box-shadow: 15px 15px 25px midnightblue;
+}
+
+button {
+    margin: 10px;
+    width: 60px;
+    background: midnightblue;
+    color: white;
+    font-size: 18px;
+    transition: 500ms ease;
+    border: 1px solid black;
+    outline: none;
+}
+
+button:active {
+    transform: scale(1.1, 1.1);
+}
